@@ -7,10 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Student.h"
+#import "Vehicle.h"
 
 @class ViewController;
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate, StudentDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 

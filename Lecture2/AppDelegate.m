@@ -9,6 +9,8 @@
 #import "AppDelegate.h"
 
 #import "ViewController.h"
+#import "Student.h"
+#import "Vehicle.h"
 
 @implementation AppDelegate
 
@@ -21,6 +23,9 @@
     [_viewController release];
     [super dealloc];
 }
+-(void)drinkBeer{
+    NSLog(@"Drink Beer!");
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
@@ -29,6 +34,28 @@
     self.viewController = [[[ViewController alloc] initWithNibName:@"ViewController" bundle:nil] autorelease];
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
+
+    Student* student = [[ Student alloc] init] ;
+    Vehicle* vehicle = [[Vehicle alloc] init] ; 
+   // NSLog(@"%@", student); 
+    
+    [student performSelector:@selector(saySomething:)withObject: nil afterDelay:4 ];    
+    
+    if ([student respondsToSelector:@selector(saySomething)]){
+        [student saySomething] ;
+        
+    }
+    
+    //[student saySomething];
+    //[student saySomething:@"Hello, World!"];
+    //[student saySomething:@"Hello, World!" andDance:@"break"];
+
+
+    
+    [student release];
+    [vehicle release];
+    
+    
     return YES;
 }
 
