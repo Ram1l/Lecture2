@@ -11,6 +11,7 @@
 #import "ViewController.h"
 #import "Student.h"
 #import "Vehicle.h"
+#import "SpaceShip.h"
 
 @implementation AppDelegate
 
@@ -36,7 +37,7 @@
     [self.window makeKeyAndVisible];
 
     Student* student = [[ Student alloc] init] ;
-    Vehicle* vehicle = [[Vehicle alloc] init] ; 
+  //  Vehicle* vehicle = [[Vehicle alloc] init] ; 
    // NSLog(@"%@", student); 
     
     [student performSelector:@selector(saySomething:)withObject: nil afterDelay:4 ];    
@@ -53,7 +54,7 @@
 
     
     [student release];
-    [vehicle release];
+    //[vehicle release];
     
     
     return YES;

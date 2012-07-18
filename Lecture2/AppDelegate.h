@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "Student.h"
 #import "Vehicle.h"
+#import "SpaceShip.h"
 
 @class ViewController;
 

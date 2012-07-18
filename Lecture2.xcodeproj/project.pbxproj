@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE647D2E15B621F000905DD4 /* SpaceShip.m in Sources */ = {isa = PBXBuildFile; fileRef = CE647D2D15B621F000905DD4 /* SpaceShip.m */; };
 		CEC57C3115B5F5030055C766 /* Vehicle.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC57C3015B5F5030055C766 /* Vehicle.m */; };
 		CECF5EF715B57DFA00752256 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CECF5EF615B57DFA00752256 /* UIKit.framework */; };
 		CECF5EF915B57DFA00752256 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CECF5EF815B57DFA00752256 /* Foundation.framework */; };
@@ -20,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE647D2C15B621F000905DD4 /* SpaceShip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpaceShip.h; sourceTree = "<group>"; };
+		CE647D2D15B621F000905DD4 /* SpaceShip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpaceShip.m; sourceTree = "<group>"; };
 		CEC57C2F15B5F5030055C766 /* Vehicle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Vehicle.h; path = ../../../Lecture2/Lecture2/Lecture2/Vehicle.h; sourceTree = "<group>"; };
 		CEC57C3015B5F5030055C766 /* Vehicle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Vehicle.m; path = ../../../Lecture2/Lecture2/Lecture2/Vehicle.m; sourceTree = "<group>"; };
 		CECF5EF215B57DFA00752256 /* Lecture2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lecture2.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -93,6 +96,8 @@
 				CECF5F1415B5812800752256 /* Student.m */,
 				CEC57C2F15B5F5030055C766 /* Vehicle.h */,
 				CEC57C3015B5F5030055C766 /* Vehicle.m */,
+				CE647D2C15B621F000905DD4 /* SpaceShip.h */,
+				CE647D2D15B621F000905DD4 /* SpaceShip.m */,
 			);
 			path = Lecture2;
 			sourceTree = "<group>";
@@ -175,6 +180,7 @@
 				CECF5F0A15B57DFA00752256 /* ViewController.m in Sources */,
 				CECF5F1515B5812800752256 /* Student.m in Sources */,
 				CEC57C3115B5F5030055C766 /* Vehicle.m in Sources */,
+				CE647D2E15B621F000905DD4 /* SpaceShip.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
